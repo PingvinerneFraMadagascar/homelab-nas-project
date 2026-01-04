@@ -25,3 +25,7 @@ functioning correctly and storing images on the dedicated NVMe SSD pool.
 
 The container ran successfully, displayed the expected message, and was
 removed without affecting the system or other configurations.
+
+<p align="center">
+  <img src="images/ContainerTest.PNG" alt="Container Test" width="500">
+</p>
