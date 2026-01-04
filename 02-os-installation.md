@@ -15,4 +15,3 @@
 
 ### Trade-offs
 - Less low-level control compared to TrueNAS
-- Vendor lock-in considerations
