@@ -32,9 +32,9 @@ and keeps application activity from impacting file storage.
 
 ### SSD Cache
 
-A second NVMe SSD is used as a read and write cache for the hard drive pool.
-The cache helps speed up frequently accessed files and metadata, improving
-responsiveness for everyday use.
+A dedicated NVMe solid-state drive was configured as a read-only cache for the
+hard disk RAID pool. This cache layer improves responsiveness for frequently
+accessed data and reduces latency associated with repeated read operations.
 
 Cached data can be rebuilt if needed, and the cache does not replace the need
 for regular backups.
