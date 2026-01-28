@@ -44,3 +44,4 @@ for regular backups.
 - Performance-sensitive workloads are isolated from bulk storage
 - Storage roles are clearly defined and easy to reason about
 - The layout supports future upgrades without major reconfiguration
+- Failure of the cache device does not affect data integrity
