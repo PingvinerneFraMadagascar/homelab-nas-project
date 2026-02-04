@@ -28,9 +28,6 @@ network analysis, penetration testing, and OSINT investigations.
 - 60 GB SSD-backed storage
 - Bridged network mode
 
-A clean snapshot was created after initial setup to allow easy rollback during
-experimentation.
-
 ## Use Cases
 
 - Cybersecurity lab environments
