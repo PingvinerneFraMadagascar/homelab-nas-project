@@ -31,6 +31,16 @@ network analysis, penetration testing, and OSINT investigations.
 A clean snapshot was created after initial setup to allow easy rollback during
 experimentation.
 
+## Kali Post-Installation Configuration
+
+After installation, additional configuration steps were performed:
+
+- Enabled non-root packet capture for Wireshark
+- Installed additional security tools and wordlists
+- Configured improved shell environment
+
+This VM now serves as the primary cybersecurity lab workstation.
+
 ## Use Cases
 
 - Cybersecurity lab environments
