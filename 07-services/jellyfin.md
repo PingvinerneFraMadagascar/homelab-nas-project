@@ -1,4 +1,4 @@
-## Jellyfin (Docker Deployment)
+# Jellyfin (Docker Deployment)
 
 Jellyfin is deployed as a Docker container and serves as the internal
 media streaming platform for members. The service is restricted to the local network and is not exposed
@@ -8,19 +8,11 @@ Deploying as a Docker container rather than a native UGOS
 application, ensures the service configuration can be redeployed 
 consistently across environments and allows for easier integration with a reverse proxy in the future.
 
-### Storage Layout
-
-- Config and cache stored on SSD pool
-- Media stored on HDD RAID pool
-- Media mounted read-only inside container
-
-### Network Policy
+## Network Policy
 
 - Exposed only on local network
 - No port forwarding configured
 - Reverse proxy planned for future secure access
-
----
 
 ## Deployment Model
 
@@ -57,9 +49,9 @@ Media and application data are separated.
  └── transcodes/
 ```
 
+- Config, cache and transcodes stored on SSD pool
+- Media stored on HDD RAID pool
 - Media mounted read-only
-- Config and transcodes stored on SSD
-- Metadata not stored inside media folders
 
 ---
 
@@ -121,7 +113,6 @@ Hardware passthrough verification pending.
 - Individual Jellyfin accounts per member
 - No anonymous access
 - No shared credentials
-- Library access configurable per user
 - No filesystem access granted to members
 
 ---
